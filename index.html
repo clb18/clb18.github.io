@@ -1,108 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Chris L. Barker</title>
   <style>
     body {
+      margin: 0;
       font-family: Georgia, serif;
-      max-width: 800px;
-      margin: 10px auto;
-      padding: 0 20px;
-      background: #fff;
-      color: #111;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
-    nav {
+
+    /* Top navigation bar */
+    .top-nav {
+      background-color: #f0f0f0;
+      padding: 10px 20px;
       text-align: right;
-      margin-bottom: 30px;
     }
-    nav a {
+
+    .top-nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    /* Center content */
+    .content {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #f0f0f0;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .footer a {
       margin: 0 15px;
       text-decoration: none;
-      color: #0066cc;
-    }
-    .hero {
-      position: relative;
-      text-align: center;
-      margin-bottom: 30px;
-    }
-    .hero-img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    .hero-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 2em;
+      color: #333;
       font-weight: bold;
-      text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
-    }
-    section {
-      margin-bottom: 40px;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #666;
-      margin-top: 60px;
-      border-top: 1px solid #ddd;
-      padding-top: 20px;
-    }
-    .external-links {
-      margin-top: 10px;
-    }
-    .external-links a {
-      margin: 0 10px;
-      color: #0066cc;
     }
   </style>
 </head>
 <body>
 
-  <!-- Banner image with name centered -->
-  <div class="hero">
-    <img src="banner.jpg" alt="Banner image" class="hero-img">
-    <div class="hero-text">Your Name</div>
+  <div class="top-nav">
+    <a href="#cv">CV</a>
+    <a href="#courses">Courses</a>
+    <a href="#links">Links</a>
+    <a href="#contact">Contact</a>
   </div>
 
-  <!-- Top navigation links -->
-  <nav>
-    <a href="#about">About</a>
-    <a href="#cv">CV</a>
-    <a href="#research">Research</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <!-- Page sections -->
-  <section id="about">
-    <!-- About content -->
-  </section>
-
-  <section id="cv">
-    <!-- CV content or link to PDF -->
-  </section>
-
-  <section id="research">
-    <!-- Research/project list -->
-  </section>
-
-  <section id="contact">
-    <!-- Contact info -->
-  </section>
-
-  <!-- Footer with external links -->
-  <footer>
-    <p>© 2025 Your Name</p>
-    <div class="external-links">
-      <a href="#" target="_blank">Google Scholar Page</a> |
-      <a href="#" target="_blank">SSRN Author Page</a>
+  <div class="content">
+    <div>
+      <h1>Your Name</h1>
+      <p>This is a short bio about you. You can include your academic interests, research areas, or professional background here.</p>
     </div>
-  </footer>
+  </div>
+
+  <div class="footer">
+    <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>
+    <a href="https://www.ssrn.com/" target="_blank">SSRN</a>
+  </div>
 
 </body>
 </html>
