@@ -3,16 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chris L. Barker </title>
+  <title>Chris L. Barker</title>
   <style>
     body {
       font-family: Georgia, serif;
       max-width: 800px;
-      margin: 40px auto;
+      margin: 10px auto;
       padding: 0 20px;
       background: #fff;
       color: #111;
-}
     }
     nav {
       text-align: right;
@@ -22,6 +21,26 @@
       margin: 0 15px;
       text-decoration: none;
       color: #0066cc;
+    }
+    .hero {
+      position: relative;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .hero-img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2em;
+      font-weight: bold;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
     }
     section {
       margin-bottom: 40px;
@@ -38,40 +57,20 @@
       margin-top: 10px;
     }
     .external-links a {
-      display: inline-block;
       margin: 0 10px;
       color: #0066cc;
-  .hero {
-    position: relative;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.hero-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 2em;
-  font-weight: bold;
-  text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
-}
     }
   </style>
 </head>
 <body>
-<div class="hero">
-  <img src="IMG_3757.JPG" alt="IMG_3757" class="hero-img">
-  <div class="hero-text">Chris L. Barker</div>
-</div>
-  
+
+  <!-- Banner image with name centered -->
+  <div class="hero">
+    <img src="banner.jpg" alt="Banner image" class="hero-img">
+    <div class="hero-text">Your Name</div>
+  </div>
+
+  <!-- Top navigation links -->
   <nav>
     <a href="#about">About</a>
     <a href="#cv">CV</a>
@@ -79,33 +78,31 @@
     <a href="#contact">Contact</a>
   </nav>
 
+  <!-- Page sections -->
   <section id="about">
-    <p>I am a [position] at [institution]. My research focuses on [brief description].</p>
+    <!-- About content -->
   </section>
 
   <section id="cv">
-    <p><a href="cv.pdf" target="_blank">Download my CV (PDF)</a></p>
+    <!-- CV content or link to PDF -->
   </section>
 
   <section id="research">
-    <p>My work explores topics in [field]. You can find selected publications and ongoing projects here.</p>
-    <ul>
-      <li>“Title of Paper 1” — <em>Journal Name</em>, 2023</li>
-      <li>“Title of Paper 2” — <em>Conference Name</em>, 2022</li>
-    </ul>
+    <!-- Research/project list -->
   </section>
 
   <section id="contact">
-    <p>Email: your.name@university.edu</p>
-    <p>Office: Department of Something, University Name</p>
+    <!-- Contact info -->
   </section>
 
+  <!-- Footer with external links -->
   <footer>
+    <p>© 2025 Your Name</p>
     <div class="external-links">
-      <a href="https://scholar.google.com/citations?hl=en&user=76d-xnoAAAAJ" target="_blank">Google Scholar Page</a> |
-      <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4149884" target="_blank">SSRN Author Page</a>
+      <a href="#" target="_blank">Google Scholar Page</a> |
+      <a href="#" target="_blank">SSRN Author Page</a>
     </div>
   </footer>
-<p>© 2025 Chris L. Barker</p>
+
 </body>
 </html>
