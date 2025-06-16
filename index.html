@@ -2,47 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My GitHub Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dr. Your Name</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      padding: 2rem;
-      background-color: #f0f0f0;
-      color: #333;
+      font-family: Georgia, serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #fff;
+      color: #111;
     }
     header {
       text-align: center;
-      margin-bottom: 2rem;
+      margin-bottom: 40px;
     }
-    h1 {
-      color: #007acc;
+    nav {
+      text-align: center;
+      margin-bottom: 30px;
     }
-    main {
-      max-width: 800px;
-      margin: 0 auto;
-      background: white;
-      padding: 2rem;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #0066cc;
+    }
+    section {
+      margin-bottom: 40px;
     }
     footer {
       text-align: center;
-      margin-top: 2rem;
       font-size: 0.9em;
-      color: #777;
+      color: #666;
+      margin-top: 60px;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Chris L. Barker</h1>
+    <h1>Dr. Your Name</h1>
+    <p>Scholar | Researcher | Educator</p>
   </header>
-  <main>
-    <p>This is a simple GitHub Page created using HTML. You can customize this content to showcase your portfolio, projects, or anything else you'd like to share.</p>
-  </main>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#cv">CV</a>
+    <a href="#research">Research</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a [position] at [institution]. My research focuses on [brief description].</p>
+  </section>
+
+  <section id="cv">
+    <h2>CV</h2>
+    <p><a href="cv.pdf" target="_blank">Download my CV (PDF)</a></p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <p>My work explores topics in [field]. You can find selected publications and ongoing projects here.</p>
+    <ul>
+      <li>“Title of Paper 1” — <em>Journal Name</em>, 2023</li>
+      <li>“Title of Paper 2” — <em>Conference Name</em>, 2022</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.name@university.edu</p>
+    <p>Office: Department of Something, University Name</p>
+  </section>
+
   <footer>
-    <p>© 2025 Chris L. Barker</p>
+    <p>© 2025 Dr. Your Name</p>
   </footer>
 </body>
 </html>
