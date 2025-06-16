@@ -41,11 +41,37 @@
       display: inline-block;
       margin: 0 10px;
       color: #0066cc;
+  .hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.7);
+}
     }
   </style>
 </head>
 <body>
-
+<div class="hero">
+  <img src="IMG_3757.jpg" alt="IMG_3757.jpg" class="hero-img">
+  <div class="hero-text">Chris L. Barker</div>
+</div>
+  
   <nav>
     <a href="#about">About</a>
     <a href="#cv">CV</a>
