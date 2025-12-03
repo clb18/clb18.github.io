@@ -9,7 +9,7 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "CV"
-        file: CV_new.qmd
+        file: C_Vita.qmd
       - text: "Publications and Working Papers"
         file: Publications.qmd
     right:
