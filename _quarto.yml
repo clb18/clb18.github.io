@@ -9,12 +9,14 @@ website:
       - text: "Home"
         file: index.qmd
       - text: "CV"
-        file: C_Vita.qmd
-      - text: "Publications and Working Papers"
-        file: Publications.qmd
-    right:
-      - icon: github
-        href: https://github.com/
+        file: CV.qmd
+#      - text: "Publications and Working Papers"
+#        file: Publications.qmd
+#    right:
+#      - icon: github
+#        href: https://github.com/
+#      - icon: twitter
+#        href: https://twitter.com
 format:
   html:
     theme:
