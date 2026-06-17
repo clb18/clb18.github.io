@@ -10,8 +10,8 @@ website:
         file: index.qmd
       - text: "CV"
         file: CV.qmd
-      - text: "Economic Dashboards"
-        href: "https://clb18.github.io/Gov_Dashboards/"
+#      - text: "Economic Dashboards"
+#        href: "https://clb18.github.io/Gov_Dashboards/"
 #      - text: "Publications and Working Papers"
 #        file: Publications.qmd
 #    right:
